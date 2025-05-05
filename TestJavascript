@@ -1,0 +1,7 @@
+git checkout JavaScript
+echo "console.log('Version 1');" > hello.js
+git add hello.js
+git commit -m "JavaScript Version 1"
+# Simulate versioning
+echo "// Version 2" >> hello.js
+git commit -am "JavaScript Version 2"
