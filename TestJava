@@ -1,0 +1,7 @@
+git checkout Java
+echo "public class HelloJava { public static void main(String[] args) { System.out.println(\"Version 1\"); }}" > HelloJava.java
+git add HelloJava.java
+git commit -m "Java Version 1"
+# Simulate versioning
+echo "// Version 2" >> HelloJava.java
+git commit -am "Java Version 2"
